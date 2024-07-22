@@ -1,0 +1,10 @@
+Here you will find data for the gantry only, pendulum only, and complete gantry system (cart+pend). 
+
+The pendulum mass (stick) is 70.3g. Picture "pendulum mass.jpeg" for reference.
+
+The cart mass (moving carriage with pendulum attachment) is approximately 1330g. Picture "pendulum attachment mass (need to add 560g for the moving cart).jpeg" for reference. The addition of ~560g comes from the carriage mass and rack attachment.
+
+For the "gantry_cart_only" data, we simply removed the pendulum (stick) and kept the attachment (encoder and bracket). Picture "cart only configuration, only cart displacement measured.jpeg" shows the setup for this test. Note that the moving mass of this setup is approximately 1330g-70.3g, or around 1260g.
+
+For the "gantry_pend_only" data, we locked the cart with a bracket, so the only motion allowed was pendulum rotation. Picture "pendulum locked, only pend angle measured.jpeg" shows the setup for this test.
+To get an approximate start angle (2.5, 5, 10, 20 30 deg), I used a hard stop. I start the data record in the steady-state low position, then manually move against the hardstop, then release. 
