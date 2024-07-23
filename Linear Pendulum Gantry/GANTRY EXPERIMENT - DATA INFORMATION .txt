@@ -15,7 +15,7 @@ Units for the data are: sample number [int], time [s], force [N], motor amplifie
 
 The motor used is our EMB-AM4 with Torque Constant: 27.3 [mNm/A] = 27.3 x 10-3 [Nm/A]. For full datasheet information, check our website.
 
-A 4:1 reduction belt and pulley from motor to pinion. The pinion gear is of Module 1.0, with 20 teeth, therfore the force distance on the pinion is 0.01m.
+A 4:1 reduction belt and pulley from motor to pinion. The pinion gear is of Module 1.0, with 20 teeth, therefore the acting force distance from the pinion to rack is 0.01m.
 
 Motor amplifier is a Maxon ESCON in current mode, set to -5A to +5A.
 
