@@ -11,12 +11,12 @@ To get an approximate start angle (2.5, 5, 10, 20 30 deg), I used a hard stop. I
 
 Units for the data are: sample number [int], time [s], force [N], motor amplifier current monitor* [V], cart position [m], and pendulum angle [rad]
 
-*: to convert motor controller current monitor [V] to motor current [A], multiply by 3.030. This value comes from the motor amplifier monitor output slope (0V for -5A and 3.3V for 5A, 1.65V for 0A). We already subtracted 1.65V so 0V = 0A.
+*: to convert motor amplifier current monitor [V] to motor current [A], multiply by 3.030. This value comes from the motor amplifier monitor output slope (0V for -5A and 3.3V for 5A, 1.65V for 0A). We already subtracted 1.65V so 0V = 0A. Data is raw (unfiltered).
 
 The motor used is our EMB-AM4 with Torque Constant: 27.3 [mNm/A] = 27.3 x 10-3 [Nm/A]. For full datasheet information, check our website.
 
 A 4:1 reduction belt and pulley from motor to pinion. The pinion gear is of Module 1.0, with 20 teeth, therfore the force distance on the pinion is 0.01m.
 
-Motor controller is a Maxon ESCON.
+Motor amplifier is a Maxon ESCON in current mode, set to -5A to +5A.
 
 DAQ is our EMB-DAQ1.
